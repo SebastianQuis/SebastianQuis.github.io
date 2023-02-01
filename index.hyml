@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portafolio</title>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+     <div class="contenedor">
+          <header class="header">
+               <div class="header__menu__desplegable">
+                    <div class="header__menu__boton" id="menu_desplegable">
+                         <i class="fas fa-bars"></i>
+                    </div>
+               </div>
+               <nav>
+                    <ul class="header__menu">
+                         <li><a href="#">Cursos</a></li>
+                         <li><a href="#">Contacto</a></li>
+                         <li><a href="#">Foro</a></li>
+                         <li><a href="#">Inicio</a></li>
+                    </ul>
+               </nav>
+               <div class="header__logo">
+                    <div class="header__titulo">
+                         <h1>Desarrollador <span>Web</span></h1>
+                         <p>Jhosimar Zevallos Zavaleta</p>
+                    </div>
+               </div>
+          </header>
+          <div class="titulo__contenedor">
+               <div class="titulo__fondo">
+                    <h2>Conocimientos</h2>
+               </div>
+          </div>
+          <div class="cursos">
+               <div class="seccion art-html">
+                    <p>
+                         HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la sigla que corresponde a HyperText Markup Language.
+                    </p>
+               </div>
+               <div class="seccion art-css">
+                    <p>
+                         El CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).
+                    </p>
+               </div>
+               <div class="seccion art-js">
+                    <p>
+                         JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,​ basado en prototipos, imperativo, débilmente tipado y dinámico.
+                    </p>
+               </div>
+               <div class="seccion art-java">
+                    <p>
+                         Java es un lenguaje de programación orientado a objetos que se incorporó al ámbito de la informática en los años noventa.
+                    </p>
+               </div>
+          </div>
+          <div class="titulo__contenedor2">
+               <div class="titulo__fondo">
+                    <h2>Contacto</h2>
+               </div>
+          </div>
+          <div class="formulario">
+               <div class="formulario__info">
+                    <div class="formulario__contact">
+                         <i class="far fa-envelope"></i>
+                         <p>coderjzz@gmail.com</p>
+                    </div>
+                    <div class="formulario__contact">
+                         <i class="fab fa-whatsapp"></i>
+                         <p>925-127-589</p>
+                    </div>
+                    <div class="formulario__redes">
+                         <ul class="formulario__redes__lista">
+                              <li><a href="#"><i class="fab fa-facebook-f facebook"></i></a></li>
+                              <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+                         </ul>
+                    </div>
+               </div>
+               <form action="#" class="formulario__frm">
+                    <div class="formulario__campos">
+                         <input type="text" placeholder="Ingrese Nombre">
+                    </div>
+                    <div class="formulario__campos">
+                         <input type="text" placeholder="Ingrese Correo">
+                    </div>
+                    <div class="formulario__campos">
+                         <input type="text" placeholder="Ingrese Asunto">
+                    </div>
+                    <div class="formulario__campos">
+                         <textarea placeholder="Ingrese Mensaje"></textarea>
+                    </div>
+                    <div class="formulario__enviar">
+                         <input type="submit" value="Enviar">
+                    </div>
+               </form>
+          </div>
+          <footer class="footer">
+               <h3>Desarrollado por <span>Jhosimar</span></h3>
+          </footer>
+     </div>
+     <script src="js/app.js"></script>
+</body>
+</html>
